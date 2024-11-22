@@ -1,5 +1,5 @@
 module.exports = {
-  textEnvironment: 'jsdom', // Ambiente de teste
+  testEnvironment: 'jsdom', // Ambiente de teste
   testPathIgnorePatterns: ['/node_modules', '/.next/'], // Ignorar essas pastas
   collectCoverage: true, // Cobertura de testes
   collectCoverageFrom: ['src/**/*.ts(x)?'], // Onde será feita a cobertura de testes
